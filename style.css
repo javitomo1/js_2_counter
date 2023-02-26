@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono";
+}
+.container {
+    display: flex;
+    flex-direction: column;/*Posiciona elementos en columna*/
+    justify-content: center;/*Centra los elementos verticalmente dentro del contenedor*/
+    align-items: center;/*Centra los elementos horizontalmente dentro del contenedor*/
+    width: 450px;/*Especificar medidas para poder centrar el div con margin*/
+    height: 450px;/*Especificar medidas para poder centrar el div con margin*/
+    margin: 10% auto;/*Centra el elemento contenedor en la web*/
+    background: #e0e0e0;
+    box-shadow: 5px 5px 20px #000000;
+    border-radius: 20px;
+}
+h1 {
+    text-transform: capitalize;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+span {
+    font-size: 5em;
+}
+.button-container {
+    margin-top: 20px;
+}
+button {
+    padding: 3px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
